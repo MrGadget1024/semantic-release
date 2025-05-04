@@ -1,7 +1,7 @@
 {
   "name": "semantic-release",
   "description": "Automated semver compliant package publishing",
-  "version": "0.0.0-development",
+  "version": "24.2.4",
   "type": "module",
   "author": "Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
   "ava": {
@@ -163,5 +163,8 @@
       "github>semantic-release/.github:renovate-config"
     ]
   },
-  "packageManager": "npm@11.3.0"
+  "packageManager": "npm@11.3.0",
+   "peerDependencies": {
+     "@semantic-release/exec": "^7.0.3"
+   }
 }
